@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Sora", sans-serif;
+  color: #394150;
+}
+
+.blog-card {
+  background-color: #ffffff;
+  width: 325px;
+  padding: 16px;
+  margin: 164px auto;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 12px;
+  position: relative;
+}
+
+.blog-img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.blog-tag {
+  font-size: 0.625rem;
+  color: #7c19ee;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f2eafd;
+  padding: 6px;
+  margin: 16px 0;
+  width: 70px;
+  border-radius: 100px;
+}
+
+.blog-title {
+  font-size: 1.125rem;
+  color: #20293a;
+  margin-bottom: 6px;
+}
+
+.blog-desc {
+  font-size: 0.75rem;
+  color: #394150;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.blog-divider {
+  height: 1px;
+  border: none;
+  background-color: #e5eaf0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.blog-author {
+  font-size: 0.75rem;
+  color: #394150;
+  padding-top: 15px;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
